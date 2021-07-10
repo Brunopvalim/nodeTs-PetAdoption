@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoption website</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="icon" type="image/png" href="/images/favicon.png" />
+</head>
+<body>
+<header>
+    <div class="container">
+        <a href="/">Pet Adoption</a>
+        <form method="GET" action="/search">
+            <input type="search" name="q" placeholder="Pesquise por raça" />
+        </form>
+    </div>
+</header>
+<nav>
+    <ul>
+        <li class="{{#menu.all}}active{{/menu.all}}"><a href="/">All</a></li>
+        <li class="{{#menu.dog}}active{{/menu.dog}}"><a href="/dogs">Dogs</a></li>
+        <li class="{{#menu.cat}}active{{/menu.cat}}"><a href="/cats">Cats</a></li>
+        <li class="{{#menu.fish}}active{{/menu.fish}}"><a href="/fishes">Fishes</a></li>
+    </ul>
+</nav>

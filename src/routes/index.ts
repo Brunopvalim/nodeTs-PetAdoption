@@ -10,6 +10,4 @@ router.get('/fishes', PageController.fishes);
 
 router.get('/search', SearchController.search);
 
-
-
 export default router;
