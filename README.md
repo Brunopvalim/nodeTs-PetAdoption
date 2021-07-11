@@ -1,6 +1,6 @@
 # nodeTs-PetAdoption
 
-Project using NODE + TYPESCRIPT
+Pet Adoption Project using NODE + TYPESCRIPT
 
 ### GLOBAL PRE-REQUISITES
 
